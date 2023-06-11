@@ -1,8 +1,8 @@
-Introduction \\
-<\quad>This course gave us a brief view of artificial intelligence. We have learned multiple classic models and concepts on how to apply these models on real-life problems. After delving into the domain of AI, we determined to participate in the IJCAI competition to demonstrate our achievement and have further insight in the field of AI.
+Introduction  
+    This course gave us a brief view of artificial intelligence. We have learned multiple classic models and concepts on how to apply these models on real-life problems. After delving into the domain of AI, we determined to participate in the IJCAI competition to demonstrate our achievement and have further insight in the field of AI.
     In this challenge, our mission is to forecast future strokes including shot types and locations given the past stroke sequences. For each singles rally, given the observed 4 strokes with type-area pairs and two players, the goal is to predict the future strokes including shot types and area coordinates for the next n steps. n is various based on the length of the rally.
 
-Prerequest
+Prerequest  
     This code can be conduct in a colab environment, up load the CoachAI-Project-main folder to google drive and conduct following code:
     from google.colab import drive
     from google.colab.patches import cv2_imshow
@@ -13,5 +13,5 @@ Prerequest
     !sh script.sh
     !python generator.py {model direction}
    
-Method
+Method  
     We mainly change the number of epoch in training, we use curve fitting and try and error method to find the best epoch number.
