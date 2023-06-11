@@ -1,5 +1,5 @@
-Introduction <//>
-</quad>This course gave us a brief view of artificial intelligence. We have learned multiple classic models and concepts on how to apply these models on real-life problems. After delving into the domain of AI, we determined to participate in the IJCAI competition to demonstrate our achievement and have further insight in the field of AI.
+Introduction \\
+<\quad>This course gave us a brief view of artificial intelligence. We have learned multiple classic models and concepts on how to apply these models on real-life problems. After delving into the domain of AI, we determined to participate in the IJCAI competition to demonstrate our achievement and have further insight in the field of AI.
     In this challenge, our mission is to forecast future strokes including shot types and locations given the past stroke sequences. For each singles rally, given the observed 4 strokes with type-area pairs and two players, the goal is to predict the future strokes including shot types and area coordinates for the next n steps. n is various based on the length of the rally.
 
 Prerequest
